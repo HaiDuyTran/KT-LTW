@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    background-image: url(./world-map-black-and-blue.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 500px;
+    width: 1000px;
+    text-align: center;
+}
+
+
+p {
+    color: white
+}
+
+span {
+    color: blue;
+}
+
+.title {
+    margin: 30px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.detail {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.url {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 1000px;
+    height: 50px;
+    padding-left: 50px;
+}
+
+.input_box {
+    position: relative;
+}
+
+.global_icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: 10px;
+}
+
+.note {
+    margin-top: 20px;
+}
+
+.button_box button {
+    margin-top: 20px;
+    background: #348bda;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 15px;
+    margin-right: 50px;
+}
+
+.note a {
+    text-decoration: none;
+    color: #245c97;
+}
+
+.close {
+    margin-top: 10px;
+    color: white;
+    background-color: lightgreen;
+    padding: 0px 15px 0px 15px;
+}
+
+.qc {
+    position: relative;
+}
+
+.qc i {
+    color: lightblue;
+
+}
+
+
+.ar {
+    margin-top: 30px;
+    position: relative;
+}
+
+.arrow {
+    border: solid orange;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.ar1 {
+    position: absolute;
+    top: 10px;
+}
+
+.ar2 {
+    position: absolute;
+    top: 2px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
